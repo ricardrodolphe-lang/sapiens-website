@@ -11,13 +11,24 @@ include 'includes/header.php';
     <div class="max-w-7xl mx-auto">
         <div class="grid lg:grid-cols-2 gap-12 lg:gap-8 items-center">
             <div class="text-center lg:text-left space-y-6 opacity-0 animate-fade-in-up">
-                <div class="inline-flex items-center gap-3 px-5 py-2.5 rounded-full glass-light border border-white/10 hover:border-blue-500/30 transition-all duration-300 group/badge cursor-default">
+                <div
+                    class="inline-flex items-center gap-3 px-5 py-2.5 rounded-full glass-light border border-white/10 hover:border-blue-500/30 transition-all duration-300 group/badge cursor-default">
                     <div class="flex -space-x-2.5">
-                        <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=40&h=40&fit=crop&crop=face" alt="Client" class="w-8 h-8 rounded-full border-2 border-slate-800 group-hover/badge:border-blue-500/50 transition-colors">
-                        <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=40&h=40&fit=crop&crop=face" alt="Client" class="w-8 h-8 rounded-full border-2 border-slate-800 group-hover/badge:border-violet-500/50 transition-colors">
-                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=40&h=40&fit=crop&crop=face" alt="Client" class="w-8 h-8 rounded-full border-2 border-slate-800 group-hover/badge:border-blue-500/50 transition-colors">
-                        <img src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=40&h=40&fit=crop&crop=face" alt="Client" class="w-8 h-8 rounded-full border-2 border-slate-800 group-hover/badge:border-violet-500/50 transition-colors">
-                        <div class="w-8 h-8 rounded-full border-2 border-slate-800 bg-gradient-to-br from-blue-500 to-violet-500 flex items-center justify-center text-[10px] font-bold shadow-lg shadow-blue-500/20">+50</div>
+                        <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=40&h=40&fit=crop&crop=face"
+                            alt="Client"
+                            class="w-8 h-8 rounded-full border-2 border-slate-800 group-hover/badge:border-blue-500/50 transition-colors">
+                        <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=40&h=40&fit=crop&crop=face"
+                            alt="Client"
+                            class="w-8 h-8 rounded-full border-2 border-slate-800 group-hover/badge:border-violet-500/50 transition-colors">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=40&h=40&fit=crop&crop=face"
+                            alt="Client"
+                            class="w-8 h-8 rounded-full border-2 border-slate-800 group-hover/badge:border-blue-500/50 transition-colors">
+                        <img src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=40&h=40&fit=crop&crop=face"
+                            alt="Client"
+                            class="w-8 h-8 rounded-full border-2 border-slate-800 group-hover/badge:border-violet-500/50 transition-colors">
+                        <div
+                            class="w-8 h-8 rounded-full border-2 border-slate-800 bg-gradient-to-br from-blue-500 to-violet-500 flex items-center justify-center text-[10px] font-bold shadow-lg shadow-blue-500/20">
+                            +50</div>
                     </div>
                     <div class="flex flex-col items-start gap-0.5">
                         <div class="flex items-center gap-0.5 text-yellow-400">
@@ -27,7 +38,8 @@ include 'includes/header.php';
                             <i data-lucide="star" class="w-3.5 h-3.5 fill-current"></i>
                             <i data-lucide="star" class="w-3.5 h-3.5 fill-current"></i>
                         </div>
-                        <span class="text-xs text-slate-300"><strong class="text-white">+50 projets</strong> · Satisfaction <strong class="gradient-text">5/5</strong></span>
+                        <span class="text-xs text-slate-300"><strong class="text-white">+50 projets</strong> ·
+                            Satisfaction <strong class="gradient-text">4,8/5</strong></span>
                     </div>
                 </div>
 
