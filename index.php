@@ -1,11 +1,32 @@
 <?php
 // Configuration SEO pour cette page
-$pageTitle = "Sapiens.ai | IA & Automatisation pour Entreprises";
+$pageTitle = "BeSapiens | IA & Automatisation pour Entreprises";
 $pageDesc = "Rendez vos équipes 10x plus efficaces avec nos solutions d'IA et d'automatisation sur mesure. Audit gratuit disponible.";
 
 // Inclusion de l'en-tête (Head + Navbar)
 include 'includes/header.php';
 ?>
+
+<!-- Schema.org WebPage -->
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "BeSapiens — IA & Automatisation pour entreprises",
+    "description": "Automatisez vos processus métier avec l'IA. BeSapiens conçoit des solutions sur mesure : agents IA, chatbots, workflows automatisés.",
+    "url": "https://besapiens.fr/",
+    "inLanguage": "fr-FR",
+    "isPartOf": {
+        "@type": "WebSite",
+        "name": "BeSapiens",
+        "url": "https://besapiens.fr"
+    },
+    "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["#faq", ".hero-content"]
+    }
+}
+</script>
 
 <section class="relative min-h-screen xl:min-h-[70vh] pt-28 md:pt-36 pb-20 px-4 sm:px-6 lg:px-8 overflow-hidden">
     <div class="max-w-7xl mx-auto">
@@ -1042,7 +1063,6 @@ include 'includes/header.php';
                         alt="Marc Dubois" class="w-12 h-12 rounded-full">
                     <div>
                         <div class="font-semibold">Marc D.</div>
-                        <!--<div class="text-sm text-slate-400">Head of Customer Success, RetailPro</div>-->
                     </div>
                 </div>
             </div>
@@ -1064,7 +1084,6 @@ include 'includes/header.php';
                         alt="Sophie Martin" class="w-12 h-12 rounded-full">
                     <div>
                         <div class="font-semibold">Sophie Martin</div>
-                        <!--<div class="text-sm text-slate-400">Head of Customer Success, RetailPro</div>-->
                     </div>
                 </div>
             </div>
@@ -1086,7 +1105,6 @@ include 'includes/header.php';
                         alt="Thomas Bernard" class="w-12 h-12 rounded-full">
                     <div>
                         <div class="font-semibold">Thomas Bernard</div>
-                        <!--<div class="text-sm text-slate-400">CEO, StartupX</div>-->
                     </div>
                 </div>
             </div>
@@ -1194,6 +1212,56 @@ include 'includes/header.php';
             </div>
         </div>
     </div>
+
+    <!-- Schema.org FAQPage -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "Combien de temps faut-il pour déployer une solution ?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "La plupart de nos automatisations sont déployées en 48h à 2 semaines selon leur complexité. Nous commençons toujours par un audit gratuit qui nous permet d'établir un planning précis avec des jalons clairs."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Faut-il des compétences techniques pour utiliser vos solutions ?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Pas du tout ! Nos solutions sont conçues pour être utilisées par des équipes métier sans compétences techniques. Nous assurons également une formation complète de vos équipes lors du déploiement."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Comment calculez-vous le ROI de vos solutions ?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Lors de l'audit initial, nous mesurons le temps passé sur les tâches à automatiser et calculons les économies potentielles. En moyenne, nos clients constatent un ROI de 300% dans les 6 premiers mois."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Quels outils pouvez-vous intégrer ?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Nous intégrons plus de 500 applications : CRM (Salesforce, HubSpot), outils de productivité (Slack, Teams, Notion), ERP, logiciels métier... Si votre outil dispose d'une API, nous pouvons l'intégrer."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Que comprend l'audit gratuit ?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "L'audit gratuit comprend : un entretien de découverte (30 min), une analyse de vos processus actuels, l'identification de 3 opportunités d'automatisation prioritaires, et une estimation du ROI potentiel. Sans engagement."
+                }
+            }
+        ]
+    }
+    </script>
 </section>
 
 <section id="audit" class="py-24 px-4 sm:px-6 lg:px-8">
