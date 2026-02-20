@@ -1,7 +1,7 @@
 <?php
 // Configuration SEO pour cette page
-$pageTitle = "BeSapiens | IA & Automatisation pour Entreprises";
-$pageDesc = "Rendez vos équipes 10x plus efficaces avec nos solutions d'IA et d'automatisation sur mesure. Audit gratuit disponible.";
+$pageTitle = "BeSapiens | IA & Automatisation pour Entreprises Ambitieuses";
+$pageDesc = "Rendez vos équipes 10x plus efficaces avec nos solutions d'IA et d'automatisation sur mesure.";
 
 // Inclusion de l'en-tête (Head + Navbar)
 include 'includes/header.php';
@@ -77,7 +77,7 @@ include 'includes/header.php';
                 <div class="flex flex-col sm:flex-row gap-3 justify-center lg:justify-start pt-2">
                     <a href="#audit"
                         class="js-audit-trigger group px-6 py-3 bg-gradient-to-r from-blue-500 to-violet-500 rounded-full font-semibold text-base hover:shadow-lg hover:shadow-blue-500/25 transition-all hover:scale-105 flex items-center justify-center gap-2">
-                        <span>Demander un Audit Gratuit</span>
+                        <span>Évaluer mon potentiel IA</span>
                         <i data-lucide="arrow-right" class="w-4 h-4 group-hover:translate-x-1 transition-transform"></i>
                     </a>
                     <a href="#solutions"
@@ -1136,7 +1136,8 @@ include 'includes/header.php';
                 <div class="accordion-content" id="faq-content-1">
                     <div class="px-6 py-5 text-slate-400 leading-relaxed">
                         La plupart de nos automatisations sont déployées en 48h à 2 semaines selon leur complexité. Nous
-                        commençons toujours par un audit gratuit qui nous permet d'établir un planning précis avec des
+                        commençons toujours par une évaluation de votre potentiel IA qui nous permet d'établir un
+                        planning précis avec des
                         jalons clairs.
                     </div>
                 </div>
@@ -1198,13 +1199,13 @@ include 'includes/header.php';
                 <button
                     class="faq-btn w-full px-6 py-5 flex items-center justify-between text-left hover:bg-white/5 transition-colors"
                     data-faq="5">
-                    <span class="font-semibold pr-4">Que comprend l'audit gratuit ?</span>
+                    <span class="font-semibold pr-4">Que comprend l'évaluation de potentiel IA ?</span>
                     <i data-lucide="chevron-down"
                         class="faq-icon w-5 h-5 text-slate-400 flex-shrink-0 transition-transform duration-300"></i>
                 </button>
                 <div class="accordion-content" id="faq-content-5">
                     <div class="px-6 py-5 text-slate-400 leading-relaxed">
-                        L'audit gratuit comprend : un entretien de découverte (30 min), une analyse de vos processus
+                        Cette évaluation comprend : un entretien de découverte (30 min), une analyse de vos processus
                         actuels, l'identification de 3 opportunités d'automatisation prioritaires, et une estimation du
                         ROI potentiel. Sans engagement.
                     </div>
@@ -1224,7 +1225,7 @@ include 'includes/header.php';
                 "name": "Combien de temps faut-il pour déployer une solution ?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "La plupart de nos automatisations sont déployées en 48h à 2 semaines selon leur complexité. Nous commençons toujours par un audit gratuit qui nous permet d'établir un planning précis avec des jalons clairs."
+                    "text": "La plupart de nos automatisations sont déployées en 48h à 2 semaines selon leur complexité. Nous commençons toujours par une évaluation de votre potentiel IA qui nous permet d'établir un planning précis avec des jalons clairs."
                 }
             },
             {
@@ -1253,10 +1254,10 @@ include 'includes/header.php';
             },
             {
                 "@type": "Question",
-                "name": "Que comprend l'audit gratuit ?",
+                "name": "Que comprend l'évaluation de potentiel IA ?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "L'audit gratuit comprend : un entretien de découverte (30 min), une analyse de vos processus actuels, l'identification de 3 opportunités d'automatisation prioritaires, et une estimation du ROI potentiel. Sans engagement."
+                    "text": "Cette évaluation comprend : un entretien de découverte (30 min), une analyse de vos processus actuels, l'identification de 3 opportunités d'automatisation prioritaires, et une estimation du ROI potentiel. Sans engagement."
                 }
             }
         ]
@@ -1278,14 +1279,14 @@ include 'includes/header.php';
                     Prêt à transformer <span class="gradient-text">votre entreprise</span> ?
                 </h2>
                 <p class="text-lg text-slate-300 mb-8 max-w-2xl mx-auto">
-                    Réservez votre audit gratuit de 30 minutes et découvrez comment l'IA et l'automatisation peuvent
+                    Évaluez votre potentiel IA en 30 minutes et découvrez comment l'automatisation peut
                     révolutionner vos opérations.
                 </p>
                 <div class="flex flex-col sm:flex-row gap-4 justify-center">
                     <a href="#audit"
                         class="js-audit-trigger group px-8 py-4 bg-gradient-to-r from-blue-500 to-violet-500 rounded-full font-semibold text-lg hover:shadow-lg hover:shadow-blue-500/25 transition-all hover:scale-105 flex items-center justify-center gap-2">
                         <i data-lucide="calendar" class="w-5 h-5"></i>
-                        <span>Réserver mon audit gratuit</span>
+                        <span>Évaluer mon potentiel IA</span>
                         <i data-lucide="arrow-right" class="w-5 h-5 group-hover:translate-x-1 transition-transform"></i>
                     </a>
                 </div>

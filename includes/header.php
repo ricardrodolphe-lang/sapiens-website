@@ -6,11 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-KL54LK4G');</script>
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-KL54LK4G');</script>
     <!-- End Google Tag Manager -->
 
     <title><?php echo isset($pageTitle) ? $pageTitle : 'BeSapiens | IA & Automatisation'; ?></title>
@@ -146,8 +149,8 @@
 
 <body class="bg-slate-950 text-slate-100 antialiased overflow-x-hidden">
     <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KL54LK4G"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KL54LK4G" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
 
     <div class="fixed inset-0 pointer-events-none z-0">
@@ -177,7 +180,7 @@
                 <div class="hidden md:flex items-center">
                     <a href="#audit"
                         class="js-audit-trigger px-5 py-2 bg-gradient-to-r from-blue-500 to-violet-500 rounded-full font-semibold text-sm hover:shadow-lg hover:shadow-blue-500/25 transition-all hover:scale-105">
-                        Audit Gratuit
+                        Évaluer mon potentiel IA
                     </a>
                 </div>
 
@@ -200,7 +203,7 @@
                     class="mobile-menu-link block py-2 text-slate-300 hover:text-white transition-colors">FAQ</a>
                 <a href="/index.php#audit"
                     class="mobile-menu-link block w-full text-center px-6 py-3 bg-gradient-to-r from-blue-500 to-violet-500 rounded-full font-semibold text-sm mt-4">
-                    Audit Gratuit
+                    Évaluer mon potentiel IA
                 </a>
             </div>
         </div>
