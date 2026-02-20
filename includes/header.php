@@ -74,8 +74,9 @@
     }
     </script>
 
-    <link rel="icon" type="image/svg+xml" href="/assets/img/favIcon.svg">
-    <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon.png">
+    <link rel="icon" href="https://besapiens.fr/assets/img/favicon-square.svg" type="image/svg+xml" sizes="any">
+    <link rel="icon" href="https://besapiens.fr/assets/img/favicon.png" type="image/png" sizes="32x32">
+    <link rel="apple-touch-icon" href="https://besapiens.fr/assets/img/favicon-square.svg">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
